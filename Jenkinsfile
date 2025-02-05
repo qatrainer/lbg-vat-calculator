@@ -14,7 +14,7 @@ pipeline {
     stage('Install') {
         steps {
             // Install the ReactJS dependencies
-            sh "sudo npm install"
+            sh "npm install"
         }
     }
     stage('Test') {
