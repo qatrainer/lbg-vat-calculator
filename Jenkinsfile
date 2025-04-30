@@ -3,12 +3,12 @@ pipeline {
   agent any
 
   stages {
-    stage('Checkout') {
+   /* stage('Checkout') {
         steps {
           // Get some code from a GitHub repository
           git branch: 'main', url: 'https://github.com/qatrainer/lbg-vat-calculator.git'
         }
-    }
+    } */
     stage('Install') {
         steps {
             // Install the ReactJS dependencies
