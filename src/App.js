@@ -3,7 +3,7 @@ import './App.css';
 import DisplayBlock from './DisplayBlock';
 import PriceEntryField from './PriceEntryField';
 import VatRateField from './VatRateField';
-sql = "SELECT id FROM users WHERE username='" + user + "' AND password='" + pass + "'"
+
 function App() {
   const [netPrice, setNetPrice] = useState(0.0);
   const [grossPrice, setGrossPrice] = useState(0.0);
